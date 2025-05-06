@@ -9,6 +9,10 @@
 #
 ##################################################
 
+LOGFILE="system_info.log"
+
+{
+
 echo "Kindly check given syste information"
 
 # This is for Disk information
@@ -25,10 +29,10 @@ free -h
 
 # This is for Number of CPU
 
-echo "Number of CPU"
-
-nproc
+echo "Number of CPU" $nproc
+}>>/home/ec2-user/LOGFILE
 
 echo "Thanks "
 
-echo Looking for diff file"
+<<<<<<< HEAD
+echo " Looking for diff"
