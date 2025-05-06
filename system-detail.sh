@@ -31,4 +31,4 @@ nproc
 
 echo "Thanks "
 
-
+echo Looking for diff file"
